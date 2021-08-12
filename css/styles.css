@@ -1,0 +1,240 @@
+body {
+  font-family: "Noto Sans SC", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Forum', cursive;
+  
+}
+
+p {
+  color: #000;
+}
+.btn-our:hover{
+  background-color:#001E6C;
+}
+/* Headings */
+.attivita-heading{
+ 
+  
+  font-size: 3rem;
+  
+  color:#000;
+  
+}
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#000;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #001E6C;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #eeeeee;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #001E6C;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 45%;
+  position: absolute;
+  
+  right: 10%;
+}
+
+/* Sedi Section */
+
+.sedi-header{
+  color:#261C2C;
+  
+}
+#sedi {
+  padding: 100px;
+}
+
+.sedi-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sedi-column {
+  padding: 3% 2%;
+}
+.sedi-image {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+/* about Section */
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #eeeeee;
+  color: #787a91;
+  
+}
+
+.testimonial-text {
+  
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  color:#000;
+  line-height: 1.5;
+
+}
+em{
+  color:#000;
+}
+.testimonial-image {
+  width: 10%;
+  
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: #000;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: #000;
+}
+
+.social-icon {
+  margin: 20px 20px;
+  color: #001E6C;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  
+  .section-heading{
+   font-size: 1.5rem;
+   font-family: 'Forum', cursive;
+ 
+  }
+  .title-image {
+    position: static;
+  
+  }
+  .btn-our{
+    font-size: 1.0rem;
+  }
+}
+#about-paragraph,
+#psicoterapia-cta{
+  text-align: left;
+
+  color: #FFF;
+}
+
+/* Modal Section */
+
+#exampleModalLabel{
+  
+
+  
+  color:#000;
+  font-size: 1.5rem;
+  
+ 
+}
+#par{
+  color:#000;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-family: 'Forum', cursive;
+ 
+  font-weight: bold;
+
+  margin-bottom: 25px;
+}
+.modal-image{
+  width: 100%;
+  height: 86%;
+}
+#maps{
+ 
+  height: 100%;
+}
+hr{
+  width: 15%;
+  color:#000;
+}
